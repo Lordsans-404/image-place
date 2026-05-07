@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="badgeGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#7986cb"/>
+      <stop offset="100%" stop-color="#3949ab"/>
+    </radialGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M100,15 L170,45 L170,105 C170,145 100,185 100,185 C100,185 30,145 30,105 L30,45 Z" fill="#283593"/>
+  <path d="M100,25 L160,52 L160,108 C160,143 100,178 100,178 C100,178 40,143 40,108 L40,52 Z" fill="url(#badgeGrad)"/>
+  <!-- Checkmark -->
+  <polyline points="68,100 90,122 134,78" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
